@@ -23,7 +23,7 @@ namespace WorkingWithVisualStudio
         {
            
             app.UseDeveloperExceptionPage();
-           
+            app.UseBrowserLink();
 
             app.UseMvcWithDefaultRoute();
         }
