@@ -16,6 +16,7 @@ namespace WorkingWithVisualStudio.Controllers
         public IActionResult Index() => View(Repository.Products
         .Where(p => p?.Price < 50));
 
+
         [HttpGet]
         public IActionResult AddProduct() => View(new Product());
 
