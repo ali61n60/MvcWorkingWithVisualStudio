@@ -5,10 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="wwwroot\css\first.css" />
-    <Content Include="wwwroot\css\second.css" />
-    <Content Include="wwwroot\js\fourth.js" />
-    <Content Include="wwwroot\js\third.js" />
+    <None Include="wwwroot\js\fourth.js" />
+    <None Include="wwwroot\js\third.js" />
   </ItemGroup>
 
   <ItemGroup>
